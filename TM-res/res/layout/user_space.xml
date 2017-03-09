@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dip" >
+
+        <com.soon.basetools.RoundImageView
+            android:id="@+id/user_space_avatar"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dip"
+            android:src="@drawable/avatar" >
+        </com.soon.basetools.RoundImageView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginBottom="9.0dip"
+            android:layout_marginTop="9.0dip" >
+
+            <TextView
+                android:id="@+id/user_tv_name"
+                style="@style/modify_userinfo_tv"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dip"
+                android:text="名字"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/user_name"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignBottom="@id/user_tv_name"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/user_tv_name"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="#ffe5e5e5" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginBottom="9.0dip"
+            android:layout_marginTop="9.0dip" >
+
+            <TextView
+                android:id="@+id/user_tv_age"
+                style="@style/modify_userinfo_tv"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dip"
+                android:text="年龄"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/user_age"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignBottom="@id/user_tv_age"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/user_tv_age"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:phoneNumber="true"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="#ffe5e5e5" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginBottom="9.0dip"
+            android:layout_marginTop="9.0dip" >
+
+            <TextView
+                android:id="@+id/user_tv_sex"
+                style="@style/modify_userinfo_tv"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:numeric="integer"
+                android:paddingLeft="10dip"
+                android:text="性别"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/user_sex"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignBottom="@id/user_tv_sex"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/user_tv_sex"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="#ffe5e5e5" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginBottom="9.0dip"
+            android:layout_marginTop="9.0dip" >
+
+            <TextView
+                android:id="@+id/user_tv_password"
+                style="@style/modify_userinfo_tv"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dip"
+                android:text="密码"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/user_password"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignBottom="@id/user_tv_password"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/user_tv_password"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:textColor="#ff9e9e9e"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="#ffe5e5e5" />
+    </LinearLayout>
+
+</LinearLayout>

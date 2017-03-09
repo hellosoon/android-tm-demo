@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_lin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip" >
+
+        <Button
+            android:id="@+id/btn_top_userinfo_xiugai"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:background="#2aa5e3"
+            android:gravity="center"
+            android:text="修改信息"
+            android:textColor="#ffffff" />
+        <Button 
+            android:id="@+id/btn_top_userinfo_xiugai_baocun"
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:gravity="center"
+            android:background="@null"
+            android:layout_alignParentRight="true"
+            android:text="保存"
+            android:textColor="@color/setting_btn_two"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/xiu_gai_xin_xi"
+        style="@style/modify_userinfo_et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="10dip" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="#ffe5e5e5" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:gravity="left|center_vertical"
+        android:text="请修改您的信息"
+        android:textColor="#989898"
+        android:textSize="12sp" />
+
+</LinearLayout>

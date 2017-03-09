@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/more_top"
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:paddingTop="20dip"
+        android:background="@color/qqcolor"
+        android:gravity="center"
+        android:text="设置"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#e6e6e6" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dip"
+                    android:text="通用"
+                    android:textColor="#8db2eb"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginTop="4dip"
+                    android:background="#8db2eb" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/me_huancun"
+                        android:layout_width="fill_parent"
+                        android:layout_height="54dip"
+                        android:background="@drawable/buttonmore"
+                        android:gravity="left|center"
+                        android:text="温度上传间隔"
+                        android:textColor="#737171"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/set_time_interval"
+                        android:layout_width="fill_parent"
+                        android:layout_height="54dip"
+                        android:background="#00000000"
+                        android:gravity="right|center_vertical"
+                        android:text="5s"
+                        android:clickable="false"
+                        android:paddingRight="10dip"
+                        android:textColor="#737171"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.3dip"
+                        android:background="#dddbdb" />
+                </RelativeLayout>
+            </LinearLayout>
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.3dip"
+                        android:background="#dddbdb" />
+           
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

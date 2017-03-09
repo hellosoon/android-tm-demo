@@ -1,0 +1,279 @@
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : local
+Source Server Version : 50547
+Source Host           : localhost:3001
+Source Database       : tm
+
+Target Server Type    : MYSQL
+Target Server Version : 50547
+File Encoding         : 65001
+
+Date: 2016-11-18 10:58:36
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for tm_data
+-- ----------------------------
+DROP TABLE IF EXISTS `tm_data`;
+CREATE TABLE `tm_data` (
+  `id` varchar(255) NOT NULL,
+  `user_id` varchar(255) NOT NULL,
+  `temperature` varchar(255) NOT NULL,
+  `time` varchar(255) NOT NULL,
+  `ip` varchar(255) DEFAULT NULL,
+  `is_del` varchar(255) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of tm_data
+-- ----------------------------
+INSERT INTO `tm_data` VALUES ('87f770cce867dcd5882beda9a3ed52b8', 'test', '16.11329', '1478681080', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('06d0aebf981bc63846b5f58aa7d5d8d9', 'test', '16.967672', '1478681085', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('623a91288ea1217e9d55551e0b87e3cc', 'test', '23.405151', '1478681090', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('f9bb718d015e609c9c8a2e225259a470', 'test', '18.334724', '1478681095', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('1dd8bd25d9def30799e225c0cd5831ff', 'test', '18.36316', '1478681102', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('9e3d9c9e97fc55e772f58fbbcd7a7181', 'test', '15.268491', '1478681105', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('345657723280d53374dff8e5abddc3b7', 'test', '20.178585', '1478681110', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('5ab2cf2c8690546283c23d8ebdbdcc75', 'test', '23.83028', '1478681115', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('e4d589f8674601b9c4140b58598976a0', 'test', '23.030247', '1478681120', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('9388715315108358713b3b0f672c6435', 'test', '21.338856', '1478681125', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('3bf984554f8abc241c756767fa10510e', 'test', '24.535751', '1478681130', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('9e54130463feac87c1304d7cd6acf51f', 'test', '19.320534', '1478681135', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('6c13e0395c0743c84a634f59354fea72', 'test', '16.758892', '1478681140', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('8bb4ea9fab03e9e844f02b9641567965', 'test', '19.517778', '1478681145', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('0b6590879abc89d6aec1c4c76c7b104f', 'test', '16.49784', '1478681150', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('711bb682c2da67a7df88d049e39d60e4', 'test', '19.188932', '1478681155', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('4392c168c9c5059a6df149b04f5d4474', 'test', '19.905287', '1478681160', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('ffc6e4b04111a87c47701991bad73efb', 'test', '21.932093', '1478681165', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('a3ad8a17aa76970a5bb544e25dc4dcb2', 'test', '17.406559', '1478681170', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('1d818b6c6deda6834b44287d6569f83a', 'test', '18.621595', '1478681175', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('f577c57a5dd3fb2337083a68ba9359f4', 'test', '22.145052', '1478681180', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('110bae9d7e2dbf8f7873b40bf9d365e9', 'test', '19.531502', '1478681185', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('77425dd06e8369c3c07a7ec11aeb3ed8', 'test', '20.21176', '1478681190', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('f70ce5fdddaa359a24a1927ba3aefa22', 'test', '17.018536', '1478681195', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('63413a1d37da56526c9ef367e743955d', 'test', '15.279746', '1478681200', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('48903ccb961f9420509d0c1e16300b09', 'test', '18.335056', '1478681205', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('1752d8111380ab7dc3f8cc0a8650d55d', 'test', '18.19354', '1478681210', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('090794e482f271dedbfa5a24510cde1b', 'test', '19.234879', '1478681215', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('4db2429aa6140a3751a402ebd9ada82e', 'test', '22.942358', '1478681220', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('07498aa901f5f7e6a09ad4b439d18ab6', 'test', '21.421577', '1478681225', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('4b95ee23338301dcca6a31b6ad46ecd6', 'test', '21.315859', '1478681230', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('fea592ca79cabd1fa13e5d0ba577cca0', 'test', '24.87696', '1478681235', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('0f439e72253083ddf34559411b948ba5', 'test', '16.599028', '1478681240', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('0e3828140c97012900e26e92cf07816a', 'test', '20.409443', '1478681245', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('923a4821b0ef769c2284e9088e290d3a', 'test', '21.76231', '1478681250', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('7e839d07b300659a179de4827d46f78e', 'test', '17.997404', '1478681255', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('4f8b633bc30c881cecb6a5ce63b1e30e', 'test', '24.754063', '1478681260', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('83662b46fed74f90bb7a24379d3e4502', 'test', '23.696594', '1478681265', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('4bd29c6690b4440248cbbe2c6e9806cb', 'test', '15.3706455', '1478681270', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('ee1f42bd4facb269e650a5a673e40107', 'test', '16.9648', '1478681275', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('06bf70fea4af82291035dc3811c517b6', 'test', '17.587559', '1478681280', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('7770dfce449ec9185820f24d5c6e35dc', 'test', '22.569386', '1478681285', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('5f1ea8df8999629df8f17db902c2ff4f', 'test', '23.661167', '1478681290', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('868630de17cbb9116b37cf41050b6eed', 'test', '17.027912', '1478681295', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('f5d02882df1785ae4e73fce096eced54', 'test', '22.389668', '1478681300', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('7916a3f517a3f9d2acab07d4316cdfe2', 'test', '20.439465', '1478681305', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('adf5b76b5afe3f07cb2d88dc04e30513', 'test', '21.94516', '1478681310', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('53cbf21649763a022e4c275c7929e04d', 'test', '16.150818', '1478681315', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('1ac44a22cbf57b1bc2752aef953f98e8', 'test', '16.102896', '1478681320', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('0e8f9b89390fe6c78329ce5e11471fca', 'test', '24.930595', '1478681325', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('fb829f2ec71bcd42f4147f40e4de3b03', 'test', '22.603008', '1478681330', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('dfd4c2f3cb847ce5287162d14645ffa1', 'test', '18.064632', '1478681335', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('349bc7a616ff6ca118e16f2edc496e9f', 'test', '20.043522', '1478681340', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('b156427b5c5882c64575698eabc8efac', 'test', '17.312836', '1478681345', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('b23f47ab8e0ae2655412829e0732b12c', 'test', '19.037678', '1478681350', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('7d539dcb7d1ba243cfa33896e3674577', 'test', '15.163073', '1478681355', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('89aeaed1254a566fa3195a6c06305c30', 'test', '18.445486', '1478681360', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('6097ebd02ca728c40607509e82435a09', 'test', '18.86932', '1478681365', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('77a99beaa57ae5ff7a2d705b5fe1691e', 'test', '15.037734', '1478681370', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('db9fd5b59b666b04c32fe965bf14840b', 'test', '17.863247', '1478681375', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('38597cff81fbfade1672e06bb9c4a031', 'test', '16.854923', '1478681381', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('e53555a184dff16699f8eae08fb2b06d', 'test', '19.18132', '1478681385', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('bcd216232bd02ca91e6684f56594ccae', 'test', '16.32516', '1478681390', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('618dd44135689375bc824c777e2dd54c', 'test', '16.35973', '1478681395', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('7e1bdb523b5ae6235711d26bb45f1f57', 'test', '18.600708', '1478681400', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('62b059032d28829cd7bc7e259ec2dcd7', 'test', '17.030113', '1478681405', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('7e267e214d0a76f62a77c53d9d8679b6', 'test', '15.916624', '1478681410', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('24bf95780c394098eb25df0407a42726', 'test', '15.319087', '1478681416', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('82d402d7ef89eef17ff97b522923e328', 'test', '17.576216', '1478681420', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('47521b6cc966544bdde04e2c7a6dc487', 'test', '20.639612', '1478681425', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('9c2f9b57332f07f4fcee285ed8e3789b', 'test', '22.592995', '1478681430', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('7e4315a82263b37203645e54137302cf', 'test', '21.993668', '1478681435', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('becfa843a51898e70ec1dbc03da218dd', 'test', '23.389704', '1478681440', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('2683f485bd8ada58795208f1877c0d6f', 'test', '20.321562', '1478681445', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('8def924200088a615fd31fe950797ec2', 'test', '22.250328', '1478681451', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('dc954637f5d6024ea9cf591ed2510365', 'test', '23.47765', '1478681455', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('8a6acccc25d044929e4abd1dcad535c2', 'test', '20.575518', '1478681460', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('9b0644f4c209c6148eabad491586dcc2', 'test', '23.235556', '1478681465', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('10f9f6e619becee90daba964718bc599', 'test', '15.196601', '1478681470', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('0005b4b60b70759a2706124f9a9bac53', 'test', '19.384905', '1478681475', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('dde4edc7b01d50c1b89c58ed77df386d', 'test', '17.005611', '1478681480', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('37499dc95f52c00063a05f1726de5420', 'test', '16.938951', '1478681485', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('3cdee1f50d7e5a3e71c7221baebb7055', 'test', '18.561983', '1478681490', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('c7aada240ce802613cdc786c390aacee', 'test', '22.097466', '1478681495', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('544d160b449dd710f73f218cd7de406f', 'test', '17.900576', '1478681500', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('fd5f7512e9a9a7cd90ef9f9a6297ae90', 'test', '15.677207', '1478681505', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('65fa5eeef7b444f40a40aa53b2f6ada2', 'test', '21.90645', '1478681510', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('ef278f33ca075ba8d2cc7bba548c07be', 'test', '17.914936', '1478681515', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('4ab563b5c12348e3c9ee0930800bc13a', 'test', '20.911709', '1478681520', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('6b099da5cfe256ec10f38439d8b1af10', 'test', '20.953005', '1478681525', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('dda2692c6135a77ffe61f1211841b951', 'test', '15.837036', '1478681531', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('92642ffce75a86ea2bc139ff3f27e17b', 'test', '18.929409', '1478681536', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('7b38ec351f2b6a2471399ca0566f13ce', 'test', '24.63036', '1478681541', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('ce70b9aa05a86e6689e6dee745d90ada', 'test', '15.8129835', '1478681546', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('74a3c3033c784c6305083d8584ad5ea0', 'test', '17.988085', '1478681551', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('e1dc24a356efcef6a998e29177d5310a', 'test', '17.257027', '1478681556', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('18dd10e1293f9dc8b3cdfaed531585ae', 'test', '19.401564', '1478681667', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('b23f81336ac08ee28c1d064216ea8915', 'test', '24.7449', '1478681672', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('7960868e8cd4dfe95fc0b0e369f2f638', 'test', '18.14263', '1478681677', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('706e85a32a650acb8dd0e8e7a59d94e2', 'test', '21.070225', '1478681682', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('a5e348deb43bd7ec5eb2077112178727', 'test', '19.646067', '1478681687', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('673e8571a7fc8366e3219dad8e85523c', 'test', '21.345543', '1478681692', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('62971043679e6568de2af1b16a711771', 'test', '21.504196', '1478681697', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('068423f8a73c4f649432f0251530f754', 'test', '24.466913', '1478681702', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('ac2de1f89155efcd3ba0398a3417f2e5', 'test', '23.277464', '1478681707', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('2e5beef2ae139bb47d73aaf4cd4457e7', 'test', '22.072899', '1478681712', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('9af6f880df252f44d707da3c325a060a', 'test', '18.068186', '1478681717', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('f2e2855c8b2395494e875b6b7ee00a35', 'test', '18.068186', '1478681717', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('40efaa937bbf6e30b3429f22011ace60', 'test', '21.099804', '1478681722', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('633b1ab067ecd6a85745d6effef2ba84', 'test', '21.099804', '1478681722', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('171d2698f9f732e6ce7b079da0231a08', 'test', '23.129023', '1478681727', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('b19043f38f9972cd66931d92ffa056ff', 'test', '23.129023', '1478681727', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('396b2bd609625beff69ce4a586968963', 'test', '17.817785', '1478681732', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('b7e93331c95ac73d996e121929b4c783', 'test', '17.817785', '1478681732', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('65343f7e6844325669a858349b503bac', 'test', '18.244923', '1478681737', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('ba79fed00302783689beedf7c26ee41c', 'test', '18.244923', '1478681737', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('2ef011595cfd7925eb164e2ae5e57b81', 'test', '16.602995', '1478681744', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('6fa31ce15cd3a03fd1e3d32cfa15b419', 'test', '16.602995', '1478681745', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('87c7663331b7c2ad5bb703a1dcce6c42', 'test', '22.527258', '1478681755', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('1a2e368317fa5d129ff199db8ddc01bb', 'test', '22.527258', '1478681756', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('454219eb750ad042a649567581ee3a4a', 'test', '19.00533', '1478681765', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('3f2e293cd930a08f0fd8089f8dadd589', 'test', '19.00533', '1478681765', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('39660778379cfc2cfff7308e3462c1dd', 'test', '19.247631', '1478681771', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('0a1e4c092e367d4c6cf703d4b0408df2', 'test', '19.247631', '1478681771', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('5b2994dc4b6d2b37667357a20804f86f', 'test', '17.20869', '1478681779', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('c93fb07ef921d6b9c2c1d4bab656049d', 'test', '17.20869', '1478681779', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('f98c38ee9e2472c82df44486ba2d0bb6', 'test', '22.788433', '1478681784', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('308498c40431a34c35c5b903c0183434', 'test', '22.788433', '1478681785', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('8ccee5f42d8bbb28ab0f9ce4bbef214d', 'test', '18.166988', '1478681790', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('1ace8eda8bffb96eb76cb8dd0a9978a4', 'test', '18.166988', '1478681790', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('3eafe796d7a5e5779a4181a45e3a9e4a', 'test', '18.699722', '1478681802', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('ac5ff7b7ca08aaa3313b1afe546025aa', 'test', '18.699722', '1478681802', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('875eb95a63d643c68784bc928401bd7d', 'test', '23.689625', '1478681809', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('65a726cec1a5866d07f9282ef466039b', 'test', '23.689625', '1478681810', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('a3637ceb6f8bd2564b82713f7a83365a', 'test', '23.93792', '1478681819', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('a9ac948a7b256cddaec54d45437b1b78', 'test', '23.93792', '1478681820', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('da88d61da21440d937224217c98ae8f6', 'test', '22.931879', '1478681826', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('83c13545415363d946aa4811ef244c8b', 'test', '22.931879', '1478681827', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('8628fe7956f7f8aa316ba89eff094ab1', 't', '19.108776', '1478683890', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('f0806254ea7697f0534542a2330ca9b1', 't', '19.834053', '1478683895', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('afb6700303ae324e44365072372885ff', 't', '23.608719', '1478683900', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('46ef53564621eeefa18990b1fc2fea64', 't', '21.292225', '1478683905', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('d1f1696214cca86677547918fdf45908', 't', '24.285282', '1478683910', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('573a1818d67899d083b031eff405c828', 't', '21.325161', '1478683915', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('0343a6fcc504c2d051dedd137a236a4d', 't', '16.123451', '1478683920', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('ada7a4fa2bb4342387fb366eddccf246', 't', '15.352666', '1478683925', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('e7bbfabda65e49abc579ec3e4585ddbb', 't', '23.265768', '1478683930', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('1aceafafe3b12bfe56b1bf98ec8f1b51', 't', '19.803083', '1478683935', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('be1313357447a28d2d0eeeab1ea375e5', 't', '15.29766', '1478683939', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('350f9d9e7d90d2b1f309ea9e2ab260e8', 't', '22.12425', '1478683940', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('ac47de3423aaf64f546b19f6421ef5b0', 't', '23.36591', '1478683944', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('7777b796939120136cad0092d8cf6c6e', 't', '24.516497', '1478683945', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('f66c1b8b69bcfcc8b8ad395ce60c06cf', 't', '21.486069', '1478683949', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('a1b514df7b1b3ab0e3ed59ef491dd052', 't', '19.643375', '1478683950', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('a8c564d3b66af03c35df1bd653ae411c', 't', '19.463072', '1478683954', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('52160783fdf0798d8b0555ff21237eef', 't', '24.017887', '1478683955', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('a62e648396277498230657d3ef6ad845', 't', '16.925297', '1478683959', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('dca4596c9dcccd88d4a97b006a59f6d5', 't', '22.048363', '1478683960', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('e86da9bde16dee92e948d49a77d22e33', 't', '16.268412', '1478683964', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('0c5b4dd6b67322a4ab2d5de1c6e1e443', 't', '23.212444', '1478683965', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('5628051bec15ba9688b137c2636f57cd', 't', '17.941214', '1478683969', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('d3a187fd3a47cef93e0cb805d5bab0ca', 't', '24.019554', '1478683970', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('3b03579af16df37fb5e021361689feb9', 't', '18.006163', '1478683974', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('eb821f5a390c7d44e9aa2082f8eb7d62', 't', '20.487854', '1478683975', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('b408cbc21edd23c603457ff2b25e5924', 't', '22.704445', '1478683979', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('beabcfa4b1d5759f0c9d751b307ebdfe', 't', '21.123154', '1478683980', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('1386cd49e68e2c9c1baf5a876a276035', 't', '21.686882', '1478683984', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('eff6fa5a4f587cc0ed9bff392c8132d8', 't', '22.823221', '1478683985', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('d1aed8470243f9dd3ccf790c87333fa8', 't', '23.38205', '1478683989', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('01c235e97d761bfe6aa8ec25f27cd7e3', 't', '15.876099', '1478683990', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('2b19f55b97f813e05dca2e2f830e0a1a', 't', '16.811924', '1478683994', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('ba34d062207980ed2618b0dd12df600f', 't', '20.066391', '1478683995', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('8b75159decbc4abca0778cf29be5bf68', 't', '22.089926', '1478683999', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('235e1d7636112b2783ffb1e36bfc9fe9', 't', '22.79635', '1478684000', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('3ce8b0d3f476ffd49b334bfc2ea2efda', 't', '21.30922', '1478684004', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('3063d0cfa9c3c7d79bbeeab6a566f1cc', 't', '15.672471', '1478684005', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('971b2a12e66627bd31320af0cd750f37', 't', '15.919715', '1478684010', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('7bee8c1b2c45ab2485f4d1b29dcf26b8', 't', '16.96289', '1478684011', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('c3cee769e82e674d9d2b1d15284ca59f', 't', '20.112347', '1478684013', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('63ab85b44baa86416cb7539f448f8a13', 't', '20.112347', '1478684014', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('618ddbb0a4971e7f75a9f5d357a3785c', 't', '17.495564', '1478684015', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('8061097bde69728583e5336d0ff92fda', 't', '15.690998', '1478684018', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('2df46baa9353dba72502140b20a50143', 't', '15.690998', '1478684019', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('3cce19bf884a9f182cf89b2e98fd4acc', 't', '24.888494', '1478684020', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('76ef0527f8bf2e4fd6e2e98c41c4548a', 't', '21.740292', '1478684023', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('0139adfdd64babe9261cb6d6a0f12922', 't', '21.740292', '1478684024', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('6d743347e090d6b6e431b5f0f432a8fe', 't', '19.162476', '1478684025', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('628573ed7ac7bb02feec254d81fb1f25', 't', '19.497126', '1478684028', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('761bca0990983a200553fc475b4d29b5', 't', '19.497126', '1478684029', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('143f1f97857d98a491b2cf92eb2fa765', 't', '19.425453', '1478684030', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('0db8cd4ca32d1cb2fad7a4ef2422917b', 't', '22.143742', '1478684033', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('20e1d6569353d78bac1c4665ede9c9cb', 't', '22.143742', '1478684034', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('626f0dbec4bc69f27670d59427be0450', 't', '22.212265', '1478684035', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('4d7c28af90ca336e420a1b6a422b906e', 't', '22.30755', '1478684038', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('344b97887063078e36bfe5b6bc916ec1', 't', '22.30755', '1478684039', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('7d9ed4230830ee80caa70a83f3b7c0ae', 't', '21.284237', '1478684040', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('4ad618a8883d2c6adc03c6f32fa61d38', 't', '21.63515', '1478684043', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('b6dd43d5e714f0fecbafe683d3d61fe5', 't', '21.63515', '1478684044', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('e4b118956ada400e7a6b96bf81dd4d03', 't', '24.06166', '1478684045', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('a00b4429412ef6e2086562ed60672405', 't', '15.738525', '1478684051', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('128ae32351815b320ab3a118793e12c9', 't', '15.738525', '1478684051', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('641198e8d9a30d8a84aae313f4329add', 't', '22.970282', '1478684057', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('55ee68660e9ff0fae06dbdc49240aa3b', 't', '18.007183', '1478684071', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('4667e4c5edbf5155c4cb0e3f1c737f16', 't', '18.007183', '1478684072', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('5f518e90ffe340a40d1b61f4c6035f0f', 't', '17.832794', '1478684078', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('a75bb5df5833179a610803d65144dafe', 't', '16.070831', '1478684102', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('dafe204c7e400688a52b9798119ab430', 't', '16.070831', '1478684103', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('daada821d1a4500c152e8776d061455c', 't', '18.869818', '1478684109', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('94e81c6ec7c2df5d9f19060396fff7cd', 't', '16.654766', '1478684116', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('a1b33c701a4494f660e549822aa1bbc5', 't', '16.654766', '1478684117', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('e4ce2e207036452e4dabf2aa6edd996f', 't', '17.785295', '1478684118', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('9afcb8dd96680a87d0ab99ad5bbba706', 't', '23.539467', '1478684126', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('182d79103d6d3ccdb99c4bc22bf57921', 't', '23.539467', '1478684127', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('d7d4a9e91254975d3519a381c8a574ef', 't', '21.04899', '1478684132', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('d9f5f8ef2a9893731ed6a887619bfafb', 't', '17.468758', '1478684369', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('10be3ccce3a7a97050ff53538c4c2fcb', 't', '19.573984', '1478684370', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('fe2490c3cfe6359bba3d34265f556aa6', 't', '20.119478', '1478684370', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('df4eb4af62dfc4c34dddd2744d3dd499', 't', '20.119478', '1478684371', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('8aa6a73af5aaa0a67125e74a9138026e', 't', '18.169643', '1478684372', '110.53.160.157', null);
+INSERT INTO `tm_data` VALUES ('0e4c800282a0827726e7adbbbd20e058', 't', '17.468758', '1478684372', '110.53.160.157', null);
+
+-- ----------------------------
+-- Table structure for tm_user
+-- ----------------------------
+DROP TABLE IF EXISTS `tm_user`;
+CREATE TABLE `tm_user` (
+  `id` varchar(255) NOT NULL,
+  `account` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `sex` varchar(255) DEFAULT NULL,
+  `age` int(11) DEFAULT NULL,
+  `role` varchar(255) DEFAULT NULL,
+  `register_time` varchar(255) DEFAULT NULL,
+  `last_login_time` varchar(255) DEFAULT NULL,
+  `last_login_ip` varchar(255) DEFAULT NULL,
+  `is_del` varchar(255) DEFAULT NULL,
+  `auth_token` varchar(255) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of tm_user
+-- ----------------------------
+INSERT INTO `tm_user` VALUES ('7453647bddf309260fb102f39792dae5', 'soon', 'soon', 'soon', '男', '19', 'user', '1478680223', '1478680782', '110.53.160.157', null, 'fb613b867deb90635e0eb80acb153c82');
+INSERT INTO `tm_user` VALUES ('9e94023573dc05754af979d2c12ffd52', 'test', 'test', 'test', '男', '16', 'user', '1478681072', '1478681715', '110.53.160.157', null, '9ebd454b136e51cb1d5d2bc8ebeba990');
+INSERT INTO `tm_user` VALUES ('689e91fb7625c711c9f8890b0a144f5d', 't', 'soon123', 'soon123', '女', '109', 'user', '1478683882', '1478684011', '110.53.160.157', null, '0ab7251468449efd3355732a952d5823');

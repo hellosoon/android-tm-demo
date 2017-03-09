@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TM</string>
+
+    <drawable name="buttonnormal">#00000000</drawable>
+    <drawable name="buttonpressed">#ebebeb</drawable>
+
+    <color name="main">#aaaaaa</color>
+    <color name="main_1">#a4db52</color>
+    <color name="me_press_false">#737171</color>
+    <color name="me_press_true">#2aa5e3</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <string name="me_space_main_one">个人信息</string>
+    <string name="me_space_main_two">联系方式</string>
+    <string name="me_space_main_three">兴趣爱好</string>
+
+</resources>

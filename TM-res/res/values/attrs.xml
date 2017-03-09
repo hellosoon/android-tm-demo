@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="round_image_view">  
+        <attr name="border_width" format="dimension" />  
+        <attr name="border_incolor" format="color" />  
+        <attr name="border_outcolor" format="color"></attr>  
+    </declare-styleable> 
+       <declare-styleable name="ChartView">
+        <attr name="textColor" format="color"/>
+        <attr name="dayColor" format="color"/>
+        <attr name="nightColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+    </declare-styleable>
+    
+</resources>
